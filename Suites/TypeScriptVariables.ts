@@ -3,18 +3,18 @@
 var greet = "hey hi";  
 var times = 5;  
 if (times > 3) {  
-   var greet = "Say Hello JavaTpoint";   
+   var greet = "Say Hello Everyone";   
 }  
-console.log(greeter) //Output: Say Hello JavaTpoint 
+console.log(greet) //Output: Say Hello Everyone 
 
 
 let greet1 = "hey hi";  
 let totalTimes = 5;  
 if (totalTimes > 3) {  
-   let hello = "Say Hello JavaTpoint";   
-   console.log(hello) // Output: Say Hello JavaTpoint  
+   let hello = "Say Hello Everyone";   
+   console.log(hello) // Output: Say Hello Everyone  
 }  
-// console.log(hello) // Compile error: greeter is not defined  
+// console.log(hello) // Compile error: hello is not defined  
 
 
 // Second Difference
@@ -28,7 +28,7 @@ function varDisplay(){
 function varDisplay1(){
     let num: number = 10;        
   // let num:number = 20; //SyntaxError: 
-   //Identifier 'a' has already been declared
+   //Identifier 'num' has already been declared
     console.log(num);
   }
   varDisplay1();

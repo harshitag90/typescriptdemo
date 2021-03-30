@@ -25,9 +25,10 @@ result = ProcessData(2, 3); //5
 
 
 // null types
-// let num: number = null;  
-// let bool: boolean = null;   
-// let str: string = null;  
+//Variable declared and assigned to null  
+var nulValue = null;   
+console.log( nulValue );   //output: null  
+console.log( typeof(nulValue) );   //output: object   
 
 
 // User-Defined Types
