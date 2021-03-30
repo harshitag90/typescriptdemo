@@ -1,14 +1,14 @@
 // Public, private
-class Student {  
-    public studCode: number;  
-    public studName: string;  
+class Resource {  
+    public resCode: number | any;  
+    public resName: string | any;  
 }  
   
-let stud = new Student();  
-stud.studCode = 101;  
-stud.studName = "Joe Watson";  
+let res1 = new Resource();  
+res1.resCode = 101;  
+res1.resName = "Joe Watson";  
   
-console.log(stud.studCode+ " "+stud.studName);  
+console.log(res1.resCode+ " "+res1.resName);  
 
 // Protected
 class Student1 {  
