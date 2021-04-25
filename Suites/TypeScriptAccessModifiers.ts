@@ -29,9 +29,10 @@ class Person extends Student1 {
     public getElevatorPitch() {  
         return (`My unique code: ${this.studCode1}, my name: ${this.studName1} and I am in ${this.department} Branch.`);  
     }  
-}  
+}
+
 let joeRoot: Person = new Person(1, "Joe Watson", "CS");  
-// joeRoot.
+
 console.log(joeRoot.getElevatorPitch());  
 
 

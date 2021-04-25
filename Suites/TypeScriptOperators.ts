@@ -63,7 +63,7 @@ console.log("Result of String Operator: " +message);
 // Type Operators
 	
 let Bike= {make: 'Honda', model: 'CLIQ', year: 2018};
-console.log('make' in Bike);   // Output:true
+console.log('year' in Bike);   // Output:true
 
 let Bike1 = { Company1: 'Honda',
              Company2: 'Hero',

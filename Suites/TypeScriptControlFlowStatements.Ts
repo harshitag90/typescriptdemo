@@ -31,11 +31,11 @@ while (count < 5) {
 
 // do..while
 let d = 0;
-
+let i = 0;
 do {
     console.log(d);
     i++
-} while (i < 10);
+} while ( i < 10);
 
 //while
 for (let index = 0; index < 9; index++) {

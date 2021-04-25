@@ -1,5 +1,6 @@
 let value: number|string;  
-value = 120;  
+value = 120; 
+value="ABC" 
 console.log("The Numeric value of a value is: "+value);  
 value = "Welcome to Cross Stream Session";  
 console.log("The String value of a value is: "+value);  

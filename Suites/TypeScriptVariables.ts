@@ -14,7 +14,8 @@ if (totalTimes > 3) {
    let hello = "Say Hello Everyone";   
    console.log(hello) // Output: Say Hello Everyone  
 }  
-// console.log(hello) // Compile error: hello is not defined  
+
+ // console.log(hello) // Compile error: hello is not defined  
 
 
 // Second Difference

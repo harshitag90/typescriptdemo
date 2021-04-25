@@ -31,6 +31,53 @@ console.log( nulValue );   //output: null
 console.log( typeof(nulValue) );   //output: object   
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // User-Defined Types
 //Array -
 var list : number[] = [1, 3, 5]; 
