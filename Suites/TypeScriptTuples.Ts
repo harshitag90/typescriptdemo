@@ -15,7 +15,7 @@ empTuple1.push(10001);   // append value to the tuple
 let empTuple2 = ["John", 25 , "Google",1001];  
 console.log("Items: "+empTuple2);  
 console.log("Length of Tuple Items before pop: "+empTuple2.length);   // returns the tuple size  
-empTuple2.pop();   // removed value to the tuple   
+empTuple2.pop();   // removedlast value to the tuple   
 console.log("Length of Tuple Items after pop: "+empTuple2.length);  
 console.log("Items: "+empTuple2);  
 

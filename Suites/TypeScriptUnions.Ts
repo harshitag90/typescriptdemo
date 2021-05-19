@@ -10,6 +10,7 @@ console.log("The String value of a value is: "+value);
 // Using union in functions
 function display(value: (number | string))  
 {  
+
     if(typeof(value) === "number")  
         console.log('The given value is of type number.');  
     else if(typeof(value) === "string")  
